@@ -1,0 +1,41 @@
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.dist-info/
+*.log
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Entornos y secretos
+.env
+.env.*
+kaggle.json
+
+# Pruebas / cache
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# SO (Windows/Mac)
+Thumbs.db
+.DS_Store
+
+# Datos grandes locales (NO necesarios en prod)
+dataset/
+data/raw/
+logs/
+checkpoints/
+flowers-model/
+
+# (Mantenemos estos archivos en el repo)
+!data/index.json
+# Nota: NO ignoramos models/saved_model/ para que Render lo tenga
